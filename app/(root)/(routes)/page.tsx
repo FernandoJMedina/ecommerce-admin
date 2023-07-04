@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 
-import { Modal } from "@/components/ui/modal";
 import {
   isOpenStoreModalSelector,
   onOpenStoreModalAction,
@@ -17,5 +16,5 @@ export default function SetupPage() {
       onOpen();
     }
   }, [isOpen, onOpen]);
-  return <div className="p-4">RootPage</div>;
+  return null;
 }
